@@ -1,0 +1,80 @@
+body {
+	--bg: #fcfcfc;
+	--bg-panel: #ebebeb;
+	--color-headings: #3ee09d;
+	--color-text: #333333;
+}
+
+body[data-theme='dark'] {
+	--bg: #333333;
+	--bg-panel: #434343;
+	--color-headings: #3694ff;
+	--color-text: #e2e2e2;
+}
+
+body {
+	background-color: var(--bg);
+}
+
+.container {
+	background-color: var(--bg-panel);
+
+	h1 {
+		margin: 0;
+		color: var(--color-headings);
+	}
+
+	p {
+		color: var(--color-text);
+		grid-area: content;
+		font-size: 1.1em;
+		line-height: 1.8em;
+		margin-top: 2em;
+	}
+}
+
+input[type='checkbox'].theme-switch {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 52px;
+	height: 27px;
+	background: grey;
+	float: right;
+	border-radius: 100px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.2s;
+}
+
+input:checked + label {
+	background: var(--color-headings);
+}
+
+input:checked + label:after {
+	left: calc(100% - 3px);
+	transform: translateX(-100%);
+}
+
+body.transition,
+body.transition *,
+body.transition *:before,
+body.transition *:after {
+	transition: all 500ms !important;
+	transition-delay: 0 !important;
+}

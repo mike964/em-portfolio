@@ -1,0 +1,16 @@
+2022-3-5
+
+
+
+
+# TODOS 
+center navbar items
+22/3/10 : Dark mode switch scss added.
+22.5.28 - Uplad to Github
+Stiky Navbar 
+
+
+# NOTES
+background img should contain navbar and be dark
+live preview for projects
+ 
