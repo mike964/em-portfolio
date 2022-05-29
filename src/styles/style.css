@@ -112,3 +112,12 @@ section#hero {
 button:not(:disabled) {
 	cursor: pointer;
 }
+
+.slick-prev:before,
+.slick-next:before {
+	font-family: 'slick';
+	font-size: 20px;
+	line-height: 1;
+	opacity: 0.9;
+	color: #3992e6 !important;
+}
