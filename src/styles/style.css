@@ -10,6 +10,12 @@
 	background-size: cover;
 }
 
+.black {
+	color: #000000;
+}
+.white {
+	color: #ffffff;
+}
 .gold {
 	color: gold;
 }
