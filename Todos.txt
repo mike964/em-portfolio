@@ -5,12 +5,17 @@
 
 # TODOS 
 center navbar items
-22/3/10 : Dark mode switch scss added.
+22.3.10 : Dark mode switch scss added.
 22.5.28 - Uplad to Github
-Stiky Navbar 
+Stiky Navbar                             DONE
+build carousel for skills
+circles around your skills to show proficiency for 
+each skill level
 
 
 # NOTES
 background img should contain navbar and be dark
 live preview for projects
  
+
+ Favorite books / apps 

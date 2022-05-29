@@ -8,10 +8,7 @@ const ProjectsSection = () => {
 				<div className='container'>
 					<div className='section-title'>
 						<h2>My Projects</h2>
-						<p>
-							Sit sint consectetur velit quisquam cupiditate impedit suscipit
-							alias
-						</p>
+						<p>Projects developed by Kemal</p>
 					</div>
 
 					<ProjectsHeader />
