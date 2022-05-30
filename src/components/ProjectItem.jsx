@@ -24,7 +24,7 @@ const ProjectItem = ({ project: { title, description } }) => {
 				<div className='text-center'>
 					<div className='btn-group  ds-flex   '>
 						<a type='button' className='card-link'>
-							<i className='fas fa-desktop' /> Live Demo
+							<i className='fas fa-desktop' /> Live demo
 						</a>
 					</div>
 				</div>

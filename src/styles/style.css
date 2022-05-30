@@ -155,6 +155,6 @@ button:not(:disabled) {
 
 .card-title {
 	color: #5278e0;
-	font-weight: 600;
+	font-weight: 500;
 	font-family: Poppins, sans-serif;
 }

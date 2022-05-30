@@ -4,12 +4,18 @@ import Slider from 'react-slick'
 
 const SkillsSlider = () => {
 	const mySkills = [
-		{ id: 101, name: 'html', title: 'HTML 5', level: 'proficient' },
+		{
+			id: 101,
+			name: 'html',
+			title: 'HTML 5',
+			color: '#339ff8',
+			level: 'proficient',
+		},
 		{
 			id: 102,
 			name: 'css',
 			title: 'CSS 3',
-			// color: '#1a9cf2',
+			color: '#339ff8',
 			level: 'proficient',
 		},
 		{
