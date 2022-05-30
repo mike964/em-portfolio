@@ -16,7 +16,7 @@ const ContactSection = () => {
 							<div className='info-box'>
 								<i className='bx bx-share-alt' />
 								<h3>Social Profiles</h3>
-								<div className='social-links'>
+								<div className='social-links mb-5'>
 									<a href='#' className='twitter'>
 										<i className='bi bi-twitter' />
 									</a>
@@ -30,21 +30,18 @@ const ContactSection = () => {
 										<i className='bi bi-linkedin' />
 									</a>
 								</div>
-							</div>
-						</div>
-					</div>
-					<div className='row'>
-						<div className='col-md-8 m-auto'>
-							<div className='info-box my-4'>
-								<div className=' '>
-									<i className='bx bx-envelope' />
-									<h3>Email Me</h3>
-									<p>contact@example.com</p>
+								<div className=' my-4'>
+									<div className=' '>
+										<i className='bx bx-envelope' />
+										<h3>Email Me</h3>
+										<p>contact@example.com</p>
+									</div>
+									<ContactForm />
 								</div>
-								<ContactForm />
 							</div>
 						</div>
 					</div>
+					<div className='row'></div>
 				</div>
 			</div>
 		</section>

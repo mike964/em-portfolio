@@ -6,11 +6,14 @@
 # TODOS 
 center navbar items
 22.3.10 : Dark mode switch scss added.
-22.5.28 - Uplad to Github
-Stiky Navbar                             DONE
-build carousel for skills
+22.5.28 - Upload to Github                              ✅
+Stiky Navbar                                            ✅
+build carousel for skills                               ✅
 circles around your skills to show proficiency for 
-each skill level
+each skill level (no need)
+More about me section                                   ✅ 5.30
+Make contact me form functional 
+
 
 
 # NOTES
@@ -19,4 +22,3 @@ live preview for projects
  
 
  Favorite books / apps 
-https://icon-icons.com/icon/file-type-css/130661
