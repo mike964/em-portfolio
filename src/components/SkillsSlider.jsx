@@ -41,7 +41,13 @@ const SkillsSlider = () => {
 			color: '#23ffcf',
 			level: 'proficient',
 		},
-		{ id: 108, name: 'ts', title: 'TypeScript', level: 'competent' },
+		{
+			id: 108,
+			name: 'ts',
+			title: 'TypeScript',
+			color: '#00b7ff',
+			level: 'competent',
+		},
 		{
 			id: 109,
 			name: 'nodejs',
@@ -49,17 +55,23 @@ const SkillsSlider = () => {
 			color: '#0a8a35',
 			level: 'competent',
 		},
-		{ id: 110, name: 'mongodb', title: 'MongoDB', level: 'competent' },
+		{
+			id: 110,
+			name: 'mongodb',
+			title: 'MongoDB',
+			color: '#00b7ff',
+			level: 'competent',
+		},
 		// {id : 103 , name : 'mysql' , title : 'MySQL' , level : 'competent'},
 		// {id : 103 , name : 'postgresql' , title : 'PostgreSQL' , level : 'competent'},
 	]
 
 	const settings = {
-		dots: true,
+		dots: false,
 		infinite: true,
-		speed: 500,
-		slidesToShow: 4.5,
-		slidesToScroll: 3,
+		speed: 600,
+		slidesToShow: 5.5,
+		slidesToScroll: 2,
 		nextArrow: <SampleNextArrow />,
 		prevArrow: <SamplePrevArrow />,
 	}

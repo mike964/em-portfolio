@@ -12,7 +12,7 @@ const SkillsSection = () => {
 					</p>
 				</div>
 				<div className='row skills-content'>
-					<div className='col-8 m-auto'>
+					<div className='col-md-12 col-lg-9 m-auto'>
 						<SkillsSlider />
 					</div>
 				</div>
