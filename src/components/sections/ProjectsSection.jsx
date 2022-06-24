@@ -34,7 +34,7 @@ const ProjectsSection = () => {
 					<p>Projects developed by Kemal</p>
 				</div>
 
-				<ProjectsHeader />
+				{/* <ProjectsHeader /> */}
 
 				<div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
 					{myProjects.map(project => (

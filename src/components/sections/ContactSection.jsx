@@ -7,10 +7,7 @@ const ContactSection = () => {
 			<div className='container'>
 				<div className='section-title'>
 					<h2>Contact Me</h2>
-					<p>
-						Sit sint consectetur velit quisquam cupiditate impedit suscipit
-						alias
-					</p>
+					<p>Send me and email or contact me on my social media accounts</p>
 					<div className='row'>
 						<div className='col-md-8 m-auto'>
 							<div className='info-box'>
@@ -34,7 +31,7 @@ const ContactSection = () => {
 									<div className=' '>
 										<i className='bx bx-envelope' />
 										<h3>Email Me</h3>
-										<p>contact@example.com</p>
+										<p>moslm9647@gmail.com</p>
 									</div>
 									<ContactForm />
 								</div>

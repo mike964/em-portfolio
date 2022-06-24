@@ -49,6 +49,13 @@ const SkillsSlider = () => {
 		},
 		{
 			id: 108,
+			name: 'firebase',
+			title: 'Firebase',
+			color: '#58bfe7',
+			level: 'competent',
+		},
+		{
+			id: 108,
 			name: 'ts',
 			title: 'TypeScript',
 			color: '#00b7ff',
@@ -77,9 +84,12 @@ const SkillsSlider = () => {
 		infinite: true,
 		speed: 600,
 		slidesToShow: 5.5,
-		slidesToScroll: 2,
-		nextArrow: <SampleNextArrow />,
-		prevArrow: <SamplePrevArrow />,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+		// cssEase: 'linear',
+		// nextArrow: <SampleNextArrow />,
+		// prevArrow: <SamplePrevArrow />,
 	}
 
 	return (
