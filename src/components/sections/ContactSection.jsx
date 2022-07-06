@@ -20,9 +20,7 @@ const ContactSection = () => {
 									<a href='#' className='facebook'>
 										<i className='bi bi-facebook' />
 									</a>
-									<a href='#' className='google-plus'>
-										<i className='bi bi-skype' />
-									</a>
+
 									<a href='#' className='linkedin'>
 										<i className='bi bi-linkedin' />
 									</a>
@@ -33,7 +31,7 @@ const ContactSection = () => {
 										<h3>Email Me</h3>
 										<p>moslm9647@gmail.com</p>
 									</div>
-									<ContactForm />
+									{/* <ContactForm /> */}
 								</div>
 							</div>
 						</div>

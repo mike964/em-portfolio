@@ -5,7 +5,7 @@ import ProjectsHeader from '../ProjectsHeader'
 const ProjectsSection = () => {
 	const myProjects = [
 		{
-			title: 'Ecommerce Store',
+			title: 'E-commerce Store',
 			description:
 				'Online store built with React, Redux... with many features , prodect search , filters, user login and more',
 			image: '',

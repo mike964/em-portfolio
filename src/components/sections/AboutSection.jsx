@@ -9,7 +9,7 @@ const AboutSection = () => {
 				</div>
 				<div className=' col-md-8 mx-auto '>
 					<p className='lead fs-4' style={{ color: '#888888' }}>
-						Kemal Emin is a self-taught web developer. He started coding at
+						Moslm Kemal is a self-taught web developer. He started coding at
 						2018. Once he learned JavaScript He fell in love with Coding and
 						he's been coding almost eveyday since then. So far he has built many
 						projects for practice. you can see few of them here.

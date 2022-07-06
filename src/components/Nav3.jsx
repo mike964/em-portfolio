@@ -100,11 +100,11 @@ const Nav3 = () => {
 							Contact
 						</a>
 					</li>
-					<li className='nav-li dropdown '>
+					{/* <li className='nav-li dropdown '>
 						<a className='nav-link' href='/'>
 							<span>English</span> <i className='bi bi-chevron-down' />{' '}
 						</a>
-					</li>
+					</li> */}
 				</ul>
 			</nav>
 		</header>
