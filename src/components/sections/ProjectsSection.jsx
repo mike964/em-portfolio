@@ -6,7 +6,7 @@ const ProjectsSection = () => {
 	const username = 'Moslm'
 	const myProjects = [
 		{
-			id: 'p01',
+			id: 'p-01',
 			title: 'E-commerce Store',
 			description:
 				'Online store built with React, Redux... with many features , prodect search , filters, user login and more',
@@ -14,21 +14,36 @@ const ProjectsSection = () => {
 			url: ' ',
 		},
 		{
-			id: 'p02',
+			id: 'p-02',
 			title: 'Memory Game',
 			description:
-				'A Game built with React hooks , with features such as prodect search , filters, user login and more',
+				'A Game built with React hooks to challenge user memory ability and improve retention.',
 			image: 'memory-game',
 			url: ' ',
 		},
 		{
-			id: 'p03',
-			title: 'Flashcards App',
+			id: 'p-03',
+			title: 'Pomodoro Timer',
 			description:
-				'An app with main purpose of making  learning a language fun and enjoyable experience. Built with React, Redux , TypeScript',
-			image: 'flashcards-app',
+				'A Timer app to help users focus on any task that requires deep focus, such as study, writing, or coding.',
+			/*
+        An online Pomodoro Timer to boost your productivity
+        What is Pomofocus? 
+        Pomofocus is a customizable pomodoro timer that works on desktop & mobile browser.
+        The aim of this app is to help you focus on any task you are working on, such as study, writing, or coding.
+        his app is inspired by Pomodoro Technique which is a time management method developed by Francesco Cirillo.
+        */
+			image: 'pomodoro-app',
 			url: ' ',
 		},
+		// {
+		// 	id: 'p-04',
+		// 	title: 'Flashcards App',
+		// 	description:
+		// 		'An app with main purpose of making  learning a language fun and enjoyable experience. Built with React, Redux , TypeScript',
+		// 	image: 'flashcards-app',
+		// 	url: ' ',
+		// },
 	]
 	return (
 		<section id='projects' className='projects bg-light'>
