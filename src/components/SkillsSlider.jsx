@@ -108,7 +108,7 @@ const SkillItem = ({ color = '#0d8fe6', skill }) => {
 			style={{ background: color, height: '150px', width: '150px' }}>
 			<span className='title white fs-5'>{skill.title}</span>
 			<img
-				src={`skill-icons/${skill.name}.png`}
+				src={process.env.PUBLIC_URL + `/assets/img/skills/${skill.name}.png`}
 				className='mx-auto'
 				alt='html'
 				style={{ height: '115px', width: 'auto' }}

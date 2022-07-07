@@ -3,26 +3,30 @@ import ProjectItem from '../ProjectItem'
 import ProjectsHeader from '../ProjectsHeader'
 
 const ProjectsSection = () => {
+	const username = 'Moslm'
 	const myProjects = [
 		{
+			id: 'p01',
 			title: 'E-commerce Store',
 			description:
 				'Online store built with React, Redux... with many features , prodect search , filters, user login and more',
-			image: '',
+			image: 'ecommerce-store',
 			url: ' ',
 		},
 		{
+			id: 'p02',
 			title: 'Memory Game',
 			description:
-				'A Game built with React hooks , with many features , prodect search , filters, user login and more',
-			image: '',
+				'A Game built with React hooks , with features such as prodect search , filters, user login and more',
+			image: 'memory-game',
 			url: ' ',
 		},
 		{
+			id: 'p03',
 			title: 'Flashcards App',
 			description:
-				'An app with main purpose of making learning languages fun and enjoyable experience Build with React, Redux , TypeScript',
-			image: '',
+				'An app with main purpose of making  learning a language fun and enjoyable experience. Built with React, Redux , TypeScript',
+			image: 'flashcards-app',
 			url: ' ',
 		},
 	]
@@ -31,7 +35,7 @@ const ProjectsSection = () => {
 			<div className='container'>
 				<div className='section-title'>
 					<h2>My Projects</h2>
-					<p>Projects developed by Kemal</p>
+					<p>Projects developed by {username}</p>
 				</div>
 
 				{/* <ProjectsHeader /> */}
