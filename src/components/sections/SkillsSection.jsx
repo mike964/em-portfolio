@@ -7,8 +7,8 @@ const SkillsSection = () => {
 				<div className='section-title'>
 					<h2>Skills</h2>
 					<p>
-						You can see a list of frameworks and tools that I learned to build
-						full stack web applications.
+						You can see a list of frameworks and tools that I use to build full
+						stack web applications.
 					</p>
 				</div>
 				<div className='row skills-content mb-5'>
