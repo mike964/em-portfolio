@@ -9,7 +9,7 @@ const ProjectsSection = () => {
 			id: 'p-01',
 			title: 'E-commerce Store',
 			description:
-				'Online store built with React, Redux... with many features : prodect search, filters, shopping cart, user login and more',
+				'Online store built with React, Redux with many features : Prodect search, filters, router, shopping cart, user login and more',
 			image: 'ecommerce-store',
 			url: 'https://mike964.github.io/bemart/',
 		},
@@ -19,7 +19,7 @@ const ProjectsSection = () => {
 			description:
 				'A Game built with React hooks to challenge user memory ability and improve retention.',
 			image: 'memory-game',
-			url: ' ',
+			url: 'https://mike964.github.io/react-memory-game/',
 		},
 		{
 			id: 'p-03',
@@ -34,7 +34,7 @@ const ProjectsSection = () => {
         his app is inspired by Pomodoro Technique which is a time management method developed by Francesco Cirillo.
         */
 			image: 'pomodoro-app',
-			url: ' ',
+			url: 'https://mike964.github.io/pomodoro-timer/',
 		},
 		// {
 		// 	id: 'p-04',
