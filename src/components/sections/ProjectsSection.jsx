@@ -9,9 +9,9 @@ const ProjectsSection = () => {
 			id: 'p-01',
 			title: 'E-commerce Store',
 			description:
-				'Online store built with React, Redux... with many features , prodect search , filters, user login and more',
+				'Online store built with React, Redux... with many features : prodect search, filters, shopping cart, user login and more',
 			image: 'ecommerce-store',
-			url: ' ',
+			url: 'https://mike964.github.io/bemart/',
 		},
 		{
 			id: 'p-02',
