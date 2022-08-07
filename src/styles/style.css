@@ -145,7 +145,7 @@ button:not(:disabled) {
 	-webkit-text-fill-color: transparent;
 	animation: textclip 3s linear infinite;
 	display: inline-block;
-	font-size: 6rem;
+	font-size: 4rem;
 }
 
 @keyframes textclip {

@@ -70,10 +70,8 @@ const Nav3 = () => {
 	}, [])
 
 	return (
-		<header
-			id='header'
-			className='fixed-top d-flex justify-content-center align-items-center header-transparent'>
-			<nav id='navbar' className='navbar'>
+		<header id='header' className='fixed-top header-transparent'>
+			<nav id='navbar' className='navbar  '>
 				<ul>
 					<li className='nav-li'>
 						<a className='nav-link scrollto active' href='#hero'>
